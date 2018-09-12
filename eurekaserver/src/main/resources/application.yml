@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: fcat-center
+
+server:
+  port: 8080
+
+eureka:
+  client:
+    register-with-eureka: false # 实例是否在eureka服务器上注册自己的信息以供其他服务发现，默认为true
+    fetch-registry: false   # 此客户端是否获取eureka服务器注册表上的注册信息，默认为true
+    serviceUrl:
+        defaultZone: http://localhost:${server.port}/eureka/
+

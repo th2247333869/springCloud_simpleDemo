@@ -18,4 +18,9 @@ public class MemberController {
     public List<String> getMember(){
         return  memberService.getMember();
     }
+
+    @RequestMapping("/getMemberService")
+    public String getMemberService(){
+        return "this is getMemberService";
+    }
 }

@@ -22,4 +22,12 @@ public class OrderController {
 
     }
 
+
+    @RequestMapping("/getOrderService")
+    @ResponseBody
+    public String getOrderService(){
+
+        return "this is order";
+
+    }
 }

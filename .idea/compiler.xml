@@ -9,12 +9,14 @@
         <module name="eurekamember" />
         <module name="eurekaorder" />
         <module name="eurekaserver" />
+        <module name="servicezuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekamember" target="1.8" />
       <module name="eurekaorder" target="1.8" />
       <module name="eurekaserver" target="1.8" />
+      <module name="servicezuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
